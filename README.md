@@ -3,7 +3,7 @@
 
 ## Overview
 
-I believe that stading permissions to release to the Apple App Store is a risk. You can use Lumos or other identity software to send a webhook to GCP when a user requests time based access to the App Store.
+I believe that standing permissions to release to the Apple App Store is a risk. You can use Lumos or other identity software to send a webhook to GCP when a user requests time based access to the App Store.
 This Google Cloud Function handles incoming requests from a Lumos provisioning webhook. It processes the request to invite users to Apple App Store Connect or promote existing users to App Manager roles.
 Use this function along with a deprovioning function and deprovisioning request that triggers when a user's access expires.
 
